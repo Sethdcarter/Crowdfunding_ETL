@@ -41,9 +41,9 @@ CREATE TABLE "subcategory" (
 
 CREATE TABLE "contacts" (
     "contact_id" int   NOT NULL,
-    "email" varchar   NOT NULL,
     "first_name" varchar   NOT NULL,
     "last_name" varchar   NOT NULL,
+    "email" varchar   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
      )
